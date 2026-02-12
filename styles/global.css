@@ -33,6 +33,12 @@ a {
   font-family: var(--font-family);
 }
 
+ p {
+    font-family: var(--font-family);
+    font: var(--text-sm);
+    color: var(--text-color-secondary);
+  }
+
 a:hover {
   color: var(--brand-color-light);
 }
@@ -62,6 +68,7 @@ main {
   "featured featured"
   "weekly weekly"
   "ai aside";
+
 }
 
 .content-tag {
